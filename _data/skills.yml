@@ -1,0 +1,19 @@
+# Optional: use this for a data-driven skills section (e.g. in an include or layout)
+# Access in Liquid as: site.data.skills
+
+categories:
+  - name: Languages
+    items:
+      - Python
+      - SQL
+      # add more
+  - name: Data & ML
+    items:
+      - pandas
+      - scikit-learn
+      # add more
+  - name: Tools
+    items:
+      - Git
+      - Jupyter
+      # add more

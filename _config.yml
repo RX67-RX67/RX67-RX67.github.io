@@ -1,0 +1,30 @@
+# Jekyll configuration — personal resume/portfolio
+# https://jekyllrb.com/docs/configuration/
+
+title: Ruijie Xu
+description: "New Graduate in Data Science and Analytics"
+baseurl: ""  # use "" for GitHub Pages user site; use "/repo-name" for project site
+url: ""     # e.g. "https://yourusername.github.io"
+
+# Build
+markdown: kramdown
+permalink: pretty
+
+# Plugins (GitHub Pages runs these automatically)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Data and collections
+# (add any custom collections here)
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - PLAN.md
+  - STRUCTURE.md
+  - README.md
+  - .git
+  - .gitignore

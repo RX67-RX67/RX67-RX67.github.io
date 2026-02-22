@@ -1,0 +1,14 @@
+# Optional: use this for a data-driven projects list (loop in projects.md or an include)
+# Access in Liquid as: site.data.projects
+
+- title: "Project title"
+  description: "Short description for recruiters."
+  tech: "Python, pandas, scikit-learn"
+  repo: "https://github.com/yourusername/repo"
+  demo: ""   # optional live link
+  # image: "/assets/images/project1.png"   # optional
+
+# - title: "Second project"
+#   description: "..."
+#   tech: "..."
+#   repo: "..."
