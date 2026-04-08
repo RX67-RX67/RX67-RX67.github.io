@@ -9,5 +9,6 @@ title: Home
   <div class="cta">
     <a href="{{ '/about' | relative_url }}">About</a>
     <a href="{{ '/projects' | relative_url }}">Projects</a>
+    <a href="{{ '/skills' | relative_url }}">Skills</a>
   </div>
 </div>

@@ -4,14 +4,12 @@ title: Projects
 permalink: /projects/
 ---
 
-<!-- Replace with your projects. You can list in Markdown or use _data/projects.yml and an include. -->
-<p>Add 3–5 projects that show your data science / analytics work. For each: title, short description, tech used, and link (repo or live demo).</p>
-
 <ul class="project-list">
+{% for project in site.data.projects %}
   <li class="project-card">
-    <h3>Project title</h3>
-    <p>One or two sentence description. What problem it solves and what you did.</p>
-    <span class="meta">Python, pandas, scikit-learn · <a href="#">Repo</a> / <a href="#">Demo</a></span>
+    <h3>{{ project.title }}{% if project.status != "" %} <span class="meta">({{ project.status }})</span>{% endif %}</h3>
+    <p>{{ project.description }}</p>
+    <span class="meta">{{ project.tech }}{% if project.repo != "" %} · <a href="{{ project.repo }}">Repo</a>{% endif %}{% if project.demo != "" %} / <a href="{{ project.demo }}">Demo</a>{% endif %}</span>
   </li>
-  <!-- Duplicate the li above for each project -->
+{% endfor %}
 </ul>

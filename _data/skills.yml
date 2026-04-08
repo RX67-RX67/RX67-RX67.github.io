@@ -1,19 +1,37 @@
-# Optional: use this for a data-driven skills section (e.g. in an include or layout)
+# Skills from CV
 # Access in Liquid as: site.data.skills
 
 categories:
-  - name: Languages
+  - name: Programming
     items:
       - Python
       - SQL
-      # add more
-  - name: Data & ML
+      - R
+      - Bash
+
+  - name: Machine Learning
     items:
-      - pandas
-      - scikit-learn
-      # add more
+      - Supervised Models
+      - Feature Engineering
+      - Model Evaluation
+      - Transformers
+
+  - name: Generative AI & LLM Systems
+    items:
+      - RAG
+      - Prompt Engineering
+
+  - name: Distributed Computing
+    items:
+      - Apache Spark (PySpark)
+
   - name: Tools
     items:
+      - Docker
       - Git
       - Jupyter
-      # add more
+
+  - name: Languages
+    items:
+      - English (Proficient)
+      - Mandarin (Native)

@@ -1,14 +1,37 @@
-# Optional: use this for a data-driven projects list (loop in projects.md or an include)
+# Research projects from CV
 # Access in Liquid as: site.data.projects
 
-- title: "Project title"
-  description: "Short description for recruiters."
-  tech: "Python, pandas, scikit-learn"
-  repo: "https://github.com/yourusername/repo"
-  demo: ""   # optional live link
-  # image: "/assets/images/project1.png"   # optional
+- title: "Data Center Siting Analysis and Predictive Modeling"
+  status: "Ongoing"
+  description: "Built web scrapers to collect 4,428 data center locations across 51 states and extract county-level policy data. Developed an LLM-based policy classifier using the OpenAI API with human-in-the-loop validation. Integrated 10+ official datasets into a unified county-level working table with 38 engineered features keyed by FIPS codes."
+  tech: "Python, OpenAI API, web scraping, feature engineering, regression modeling"
+  repo: ""
+  demo: ""
 
-# - title: "Second project"
-#   description: "..."
-#   tech: "..."
-#   repo: "..."
+- title: "Translation Quality Estimation for Hindi-Chinese Pairs"
+  status: ""
+  description: "Refactored a 1,000+ line monolithic notebook into a modular ML pipeline. Scaled training data from 100K to 800K sentence pairs, ran cross-validation across 76 hyperparameter configurations over three model families, improving test R² by +0.02. Used SHAP for feature attribution analysis."
+  tech: "Python, scikit-learn, SHAP, NLP, cross-validation"
+  repo: ""
+  demo: ""
+
+- title: "Distributed Reddit Data Processing & Analytics"
+  status: ""
+  description: "Processed 120M+ Reddit records (~120GB parquet) with PySpark to build scalable ETL and feature pipelines. Engineered NLP features (TF-IDF, token statistics, length metrics) and trained logistic regression models achieving AUC = 0.72 on the full imbalanced dataset."
+  tech: "PySpark, Apache Spark, NLP, TF-IDF, logistic regression"
+  repo: ""
+  demo: ""
+
+- title: "SnapStyle: CLIP-Based Cross-Modal Retrieval & Deployment System"
+  status: ""
+  description: "Integrated CLIP to encode clothing item embeddings and built a FAISS vector database for similarity search. Implemented a natural language query pipeline using ANN search, designed a weight-based post-retrieval ranking mechanism, and deployed the multi-service system via Docker and Hugging Face."
+  tech: "CLIP, FAISS, Docker, Hugging Face, Python, vector search"
+  repo: ""
+  demo: ""
+
+- title: "LLM Validation Agent with Tiered Escalation"
+  status: "Ongoing"
+  description: "Prototyping a multi-stage validation pipeline that escalates low-confidence LLM outputs to higher-cost models for reliability control. Integrating lightweight validation checkpoints within agent loops to detect inconsistencies before escalating."
+  tech: "Python, LLMs, agent systems, prompt engineering"
+  repo: ""
+  demo: ""

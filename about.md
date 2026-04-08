@@ -4,10 +4,24 @@ title: About
 permalink: /about/
 ---
 
-<!-- Replace with your bio: background, what you do, what you're looking for -->
-<p>Hi, I am Ruijie. You can also call me Jerry. I am a new data science graduate. I really love this major as well as my previous major - Achitecture. I just love what I am doing. Many people used to ask me why? - why do I took a huge step from architecture which sounds way less "tech" to data science which is full of "tech". I often respond with the truth that because I wanna earn more, which is true from bottom of my heart. But what's more important is that I noticed a crtical part missing during my undergraduate and I really want to make up for that, which is a technical way to anaylze problems, and data science really helped me achieve it. So now I am not only a person equiped with design thinking, but also a person equiped with adequate skills to achieve the systems created in my head.</p>
+<p>Hi, I'm Ruijie — you can also call me Jerry. I'm a Master's student in Data Science & Analytics at Georgetown University (GPA: 3.7/4.0, graduating 2026), with a background in Architecture from Soochow University.</p>
 
-<p>Used to be a TA; Able to see things from big picture and systematically solve problems; Good at creating systems(thoughts like).</p>
+<p>My path from architecture to data science wasn't just a career pivot — it was about gaining a rigorous, technical lens to complement the systems thinking and design intuition I'd built as an architect. Now I build things end-to-end: from scalable data pipelines and ML models to LLM-powered systems and deployed applications.</p>
 
-<!-- Optional: add a professional photo -->
-<!-- <img src="{{ '/assets/images/photo.jpg' | relative_url }}" alt="Your Name" width="200"> -->
+<p>I've worked on projects ranging from distributed processing of 120M+ Reddit records with PySpark, to building CLIP-based cross-modal retrieval systems, to developing LLM validation pipelines with tiered escalation. I also served as a Teaching Assistant for Statistical Learning at Georgetown, where I helped students debug gradient descent implementations and reinforced my own fundamentals in the process.</p>
+
+<p>I'm currently seeking full-time roles in data science, ML engineering, or applied AI. Feel free to reach out at <a href="mailto:rjxu0521@gmail.com">rjxu0521@gmail.com</a>.</p>
+
+<h2>Education</h2>
+<ul>
+  <li><strong>Georgetown University</strong> — M.S. Data Science & Analytics, 2024–2026 | GPA: 3.7 / 4.0</li>
+  <li><strong>Soochow University</strong> — B. Architecture, 2018–2023 | GPA: 3.5 / 4.0</li>
+</ul>
+
+<h2>Experience</h2>
+<ul>
+  <li><strong>Teaching Assistant — Statistical Learning</strong>, Georgetown University (2026)<br>
+  Reviewed ML implementations (gradient descent, regularized regression, classification), analyzed student errors, and applied standardized grading rubrics.</li>
+</ul>
+
+<p><a href="{{ '/CV_Ruijie_Xu.pdf' | relative_url }}">Download CV (PDF)</a></p>
