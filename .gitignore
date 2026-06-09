@@ -7,3 +7,4 @@ bundler_config
 vendor/
 *.log
 .DS_Store
+.bundle/
