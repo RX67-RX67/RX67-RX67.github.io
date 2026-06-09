@@ -24,4 +24,4 @@ permalink: /about/
   Reviewed ML implementations (gradient descent, regularized regression, classification), analyzed student errors, and applied standardized grading rubrics.</li>
 </ul>
 
-<p><a href="{{ '/assets/CV_Ruijie_Xu.pdf' | relative_url }}">Download CV (PDF)</a></p>
+<p><a href="{{ '/assets/cv_ruijie_xu.pdf' | relative_url }}">Download CV (PDF)</a></p>
