@@ -4,7 +4,7 @@
 title: Ruijie Xu
 description: "M.S. Data Science & Analytics @ Georgetown | ML · LLMs · Distributed Computing"
 baseurl: ""  # use "" for GitHub Pages user site; use "/repo-name" for project site
-url: ""     # e.g. "https://yourusername.github.io"
+url: "https://RX67-RX67.github.io"
 
 # Build
 markdown: kramdown
