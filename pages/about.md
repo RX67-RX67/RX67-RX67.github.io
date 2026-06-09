@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
+<div class="profile">
+  <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Ruijie Xu" class="profile-photo">
+</div>
+
 <p>Hi, I'm Ruijie — you can also call me Jerry. I'm a Master's student in Data Science & Analytics at Georgetown University (GPA: 3.7/4.0, graduating 2026), with a background in Architecture from Soochow University.</p>
 
 <p>My path from architecture to data science wasn't just a career pivot — it was about gaining a rigorous, technical lens to complement the systems thinking and design intuition I'd built as an architect. Now I build things end-to-end: from scalable data pipelines and ML models to LLM-powered systems and deployed applications.</p>
