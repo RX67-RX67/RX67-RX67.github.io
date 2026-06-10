@@ -3,6 +3,7 @@
 
 categories:
   - name: Analytics
+
     items:
       - Python
       - SQL
@@ -16,6 +17,7 @@ categories:
       - Jupyter
 
   - name: Artificial Intelligence & Large Language Model Systems
+
     items:
       - Prompt Engineering
       - RAG
@@ -24,6 +26,7 @@ categories:
       - Memory
 
   - name: Visualization
+
     items:
       - Matplotlib / Seaborn / Plotly
       - D3.js
@@ -31,10 +34,15 @@ categories:
       - React / Next.js (Interactive Dashboards)
 
   - name: Business & Research
+
     items:
       - Data Storytelling
       - Research Framework
       - Statistical Analysis
       - Client-Facing Communication
+
+  - name: Languages
+
+    items:
       - English (Proficient)
       - Mandarin (Native)

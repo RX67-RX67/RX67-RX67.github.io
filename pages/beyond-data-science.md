@@ -5,9 +5,9 @@ permalink: /beyond-data-science/
 ---
 
 <h2>Studio Work</h2>
-<p><em>[Placeholder: project overview — name, brief, and what you're proud of about it]</em></p>
+<p><em>A collection of outcomes from my architecture design studio work.</em></p>
 <p><em>[Placeholder: studio project images]</em></p>
 
 <h2>Aquascaping</h2>
-<p><em>[Placeholder: intro to your tanks — how you got into it, what you focus on]</em></p>
+<p><em>I'm also a big fan of aquariums — here's a collection of my fish tanks.</em></p>
 <p><em>[Placeholder: tank photos]</em></p>
