@@ -7,7 +7,8 @@
   --color-border: #e5e5e5;
   --font-sans: system-ui, -apple-system, sans-serif;
   --space: 1rem;
-  --max-width: 880px;
+  --max-width: 55rem; /* 880px at default root font-size */
+  font-size: 150%; /* scales all rem-based sizing by 1.5x */
 }
 
 * { box-sizing: border-box; }
@@ -39,20 +40,20 @@ img { max-width: 100%; height: auto; }
 .hero h1 { margin: 0 0 0.5rem; font-size: 2.25rem; }
 .hero .tagline { margin: 0 auto; max-width: 36rem; color: var(--color-muted); font-size: 1.1rem; }
 .hero .cta { margin-top: 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; }
-.hero .cta a { display: inline-block; padding: 0.6rem 1.25rem; background: var(--color-link); color: #fff; text-decoration: none; border-radius: 6px; font-size: 0.95rem; font-weight: 500; white-space: nowrap; transition: opacity 0.15s ease; }
+.hero .cta a { display: inline-block; padding: 0.6rem 1.25rem; background: var(--color-link); color: #fff; text-decoration: none; border-radius: 0.375rem; font-size: 0.95rem; font-weight: 500; white-space: nowrap; transition: opacity 0.15s ease; }
 .hero .cta a:hover { opacity: 0.85; }
 
 /* About page profile photo */
 .profile { text-align: center; margin-bottom: 2rem; }
-.profile-photo { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid var(--color-border); }
+.profile-photo { width: 10rem; height: 10rem; border-radius: 50%; object-fit: cover; border: 0.1875rem solid var(--color-border); }
 
 /* Project cards (use with _data/projects.yml) */
 .project-list { display: grid; gap: 1.5rem; list-style: none; padding: 0; margin: 0; }
-.project-card { border: 1px solid var(--color-border); border-radius: 8px; padding: 1.5rem; }
+.project-card { border: 1px solid var(--color-border); border-radius: 0.5rem; padding: 1.5rem; }
 .project-card h3 { margin: 0 0 0.5rem; font-size: 1.15rem; }
 .project-card p { margin: 0 0 0.75rem; color: var(--color-muted); font-size: 0.95rem; }
 .project-card .meta { font-size: 0.85rem; color: var(--color-muted); }
 
 /* Skills list */
 .skills-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
-.skills-list li { padding: 0.75rem 1rem; border: 1px solid var(--color-border); border-radius: 6px; }
+.skills-list li { padding: 0.75rem 1rem; border: 1px solid var(--color-border); border-radius: 0.375rem; }
