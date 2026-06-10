@@ -8,27 +8,23 @@ permalink: /about/
   <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Ruijie Xu" class="profile-photo">
 </div>
 
-<p>Hi, I'm Ruijie — you can also call me Jerry. I'm a Master's student in Data Science & Analytics at Georgetown University (GPA: 3.7/4.0, graduating 2026), with a background in Architecture from Soochow University.</p>
+<p>Hi, I'm Ruijie. You can also call me Jerry. I am glad you made it here. It means my somewhat "unconventional" background caught your attention enough to dig deeper, and you decided to give it a shot. I really appreciate that, especially in this AI era.</p>
 
-<p>My path from architecture to data science wasn't just a career pivot — it was about gaining a rigorous, technical lens to complement the systems thinking and design intuition I'd built as an architect. Now I build things end-to-end: from scalable data pipelines and ML models to LLM-powered systems and deployed applications.</p>
+<p>As you may have noticed, I came from an architecture school, where I spent years on design and aesthetic training. But more than that, the constant client-facing communication forced me to become someone who deeply values self-consistency. To convince a studio professor to accept a design idea, you have to walk in over-confident — even when, deep down, you're far from confident enough — and be ready to defend that idea with airtight, self-consistent logic. Getting to that level of confidence usually means going through a rough round of debating with myself first, then defending it all over again in studio crits with the professor. Most of the time, their pushback points to something real and worth iterating on, but sometimes I've gotta hold my ground. That process made me resilient — someone who can sit with a complicated project for a long time, keep iterating on an idea, and still stay self-aware throughout it. I think that's the real edge I picked up from architecture school.</p>
 
-<p>I've worked on projects ranging from distributed processing of 120M+ Reddit records with PySpark, to building CLIP-based cross-modal retrieval systems, to developing LLM validation pipelines with tiered escalation. I also served as a Teaching Assistant for Statistical Learning at Georgetown, where I helped students debug gradient descent implementations and reinforced my own fundamentals in the process.</p>
+<h2>The Unconventional Path</h2>
+<p>Many people think it's pretty crazy to make such a big jump from architecture to data science — even my parents weren't on board at first. But I had real reasons for doing it, and looking back after two years of grinding through data science at Georgetown, I'm genuinely glad I did.</p>
 
-<p>I'm currently seeking full-time roles in data science, ML engineering, or applied AI. Feel free to reach out at <a href="mailto:rjxu0521@gmail.com">rjxu0521@gmail.com</a>.</p>
+<p>The first reason comes from an observation I made during architecture school. Before starting any project, we're required to do a lot of upfront analysis — spatial analysis, activity analysis, even network analysis — meant to help us understand how a site is actually being used and how it could be improved. What I noticed, though, was that without more rigorous analytical tools, a lot of that work tended to stay at the level of compelling diagrams rather than concrete, measurable findings, and design decisions often came down to intuition and personal taste — which makes a lot of sense for a single building, where that kind of subjectivity is part of the craft. But I was surprised to see a similar pattern at the urban planning scale too, where decisions shaping entire communities still leaned heavily on precedent and the judgment of whoever was at the table. That's the gap I wanted to help close — by building up real analytical skills so that, eventually, I could bring more evidence into how these larger-scale design and planning decisions get made.</p>
 
-<h2>Education</h2>
-<ul>
-  <li><strong>Georgetown University</strong> — M.S. Data Science & Analytics, 2024–2026 | GPA: 3.7 / 4.0</li>
-  <li><strong>Soochow University</strong> — B. Architecture, 2018–2023 | GPA: 3.5 / 4.0</li>
-</ul>
+<p>The second reason comes from observing myself. Even though I've put a lot of effort into the design world, and I've developed a genuine hobby of constantly appreciating spaces and new ideas happening around the city, I realized over time that I lean more toward evidence-based thinking than toward ideas and emotions alone. I'm well aware that in a business setting, moving people with a grand vision and real emotion is genuinely important. But for me personally, architecture school gave me a lot more practice with ideas and emotional expression than with evidence-based, scientific rigor, and I wanted to round that out. So I went to Georgetown to pursue a Master's in data science.</p>
 
-<h2>Experience</h2>
-<ul>
-  <li><strong>Teaching Assistant — Statistical Learning</strong>, Georgetown University (2026)<br>
-  Reviewed ML implementations (gradient descent, regularized regression, classification), analyzed student errors, and applied standardized grading rubrics.</li>
-</ul>
+<p>So at a glance, my path might look unconventional. But deep down, as I said, the logic behind this transition is fully self-consistent and justified to me — and I'm happy with where it's led.</p>
 
-<p><a href="{{ '/assets/cv_ruijie_xu.pdf' | relative_url }}">Download CV (PDF)</a></p>
+<h2>My Career Goals</h2>
+<p>In the near term, I'm looking for roles in data science, machine learning, or applied AI — places where I can keep sharpening the technical toolkit I built at Georgetown, from data pipelines to ML models to LLM-based systems.</p>
 
-<h2>Unconventional Path</h2>
-<p>Content coming soon.</p>
+<p>But the direction I'm most excited about long-term is bringing that toolkit back to the kinds of problems I cared about in architecture school — research, policy, or consulting work where evidence-based methods meet spatial, urban, or design-related questions. I don't see this as choosing data science over architecture; it's more like finally having the rigor to back up the intuition and design thinking I already had. Whether that's a research role studying how cities actually function, policy work that needs real data instead of guesswork, or consulting where technical analysis has to talk to design and planning stakeholders — that's where I think my background stops being two unrelated halves and becomes an actual advantage.</p>
+
+<p><a href="{{ '/assets/cv_ruijie_xu.pdf' | relative_url }}">Download my résumé (PDF)</a></p>
+
