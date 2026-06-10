@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Unconventional Path
+title: Unconventional Path
 permalink: /unconventional-path/
 ---
 
