@@ -13,7 +13,6 @@
   --font-sans: system-ui, -apple-system, sans-serif;
   --space: 1rem;
   --max-width: 55rem; /* 880px at default root font-size */
-  font-size: 150%; /* scales all rem-based sizing by 1.5x */
 }
 
 * { box-sizing: border-box; }

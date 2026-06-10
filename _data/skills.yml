@@ -2,36 +2,39 @@
 # Access in Liquid as: site.data.skills
 
 categories:
-  - name: Programming
+  - name: Analytics
     items:
       - Python
       - SQL
       - R
-      - Bash
-
-  - name: Machine Learning
-    items:
-      - Supervised Models
+      - Supervised & Unsupervised Models
       - Feature Engineering
       - Model Evaluation
-      - Transformers
-
-  - name: Generative AI & LLM Systems
-    items:
-      - RAG
-      - Prompt Engineering
-
-  - name: Distributed Computing
-    items:
-      - Apache Spark (PySpark)
-
-  - name: Tools
-    items:
+      - ETL Pipelines
       - Docker
       - Git
       - Jupyter
 
-  - name: Languages
+  - name: Artificial Intelligence & Large Language Model Systems
     items:
+      - Prompt Engineering
+      - RAG
+      - MCP
+      - Agent Observability
+      - Memory
+
+  - name: Visualization
+    items:
+      - Matplotlib / Seaborn / Plotly
+      - D3.js
+      - Recharts
+      - React / Next.js (Interactive Dashboards)
+
+  - name: Business & Research
+    items:
+      - Data Storytelling
+      - Research Framework
+      - Statistical Analysis
+      - Client-Facing Communication
       - English (Proficient)
       - Mandarin (Native)
