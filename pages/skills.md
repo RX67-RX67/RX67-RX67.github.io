@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Skills
+title: Skills & Toolkit
 permalink: /skills/
 ---
 
