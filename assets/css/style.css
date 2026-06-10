@@ -2,9 +2,9 @@
 :root {
   --color-text: #1f2933;
   --color-muted: #6b7280;
-  --color-link: #a9bcd4;
-  --color-link-hover: #a9bcd4;
-  --color-link-soft: #a9bcd4;
+  --color-link: #d1d5db;
+  --color-link-hover: #d1d5db;
+  --color-link-soft: #d1d5db;
   --color-bg: #fff;
   --color-bg-soft: #f8f9fc;
   --color-border: #e5e7eb;
@@ -50,7 +50,7 @@ img { max-width: 100%; height: auto; }
 
 @media (min-width: 700px) {
   .hero .cta { flex-wrap: nowrap; }
-  .hero .cta a { flex: 1 1 0; min-width: 0; white-space: normal; text-align: center; overflow-wrap: break-word; font-size: 0.8rem; }
+  .hero .cta a { flex: 1 1 0; min-width: 0; white-space: normal; text-align: center; overflow-wrap: break-word; font-size: 0.65rem; padding: 0.5rem 0.75rem; }
 }
 
 /* About page profile photo */
