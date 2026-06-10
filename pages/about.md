@@ -29,3 +29,6 @@ permalink: /about/
 </ul>
 
 <p><a href="{{ '/assets/cv_ruijie_xu.pdf' | relative_url }}">Download CV (PDF)</a></p>
+
+<h2>Unconventional Path</h2>
+<p>Content coming soon.</p>

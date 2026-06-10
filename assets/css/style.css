@@ -50,7 +50,7 @@ img { max-width: 100%; height: auto; }
 
 @media (min-width: 700px) {
   .hero .cta { flex-wrap: nowrap; }
-  .hero .cta a { flex: 1 1 0; min-width: 0; white-space: normal; text-align: center; overflow-wrap: break-word; font-size: 0.75rem; padding: 1rem 0.75rem; }
+  .hero .cta a { flex: 1 1 0; min-width: 0; white-space: normal; text-align: center; overflow-wrap: break-word; font-size: 0.85rem; padding: 1.5rem 1rem; }
 }
 
 /* About page profile photo */
