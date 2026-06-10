@@ -4,9 +4,10 @@
   --color-muted: #555;
   --color-link: #0066cc;
   --color-bg: #fff;
+  --color-border: #e5e5e5;
   --font-sans: system-ui, -apple-system, sans-serif;
   --space: 1rem;
-  --max-width: 720px;
+  --max-width: 880px;
 }
 
 * { box-sizing: border-box; }
@@ -14,35 +15,44 @@ body { margin: 0; font-family: var(--font-sans); color: var(--color-text); backg
 a { color: var(--color-link); }
 img { max-width: 100%; height: auto; }
 
-.site-header { border-bottom: 1px solid #eee; padding: var(--space) 0; }
-.nav { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space); }
-.nav-brand { font-weight: 700; text-decoration: none; color: inherit; }
-.nav-links { list-style: none; margin: 0; padding: 0; display: flex; gap: 1.5rem; }
-.nav-links a { text-decoration: none; color: var(--color-muted); }
+.site-header { border-bottom: 1px solid var(--color-border); padding: 1.25rem 0; }
+.nav { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; row-gap: 0.75rem; column-gap: 1.5rem; }
+.nav-brand { font-weight: 700; font-size: 1.15rem; text-decoration: none; color: inherit; }
+.nav-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; row-gap: 0.5rem; column-gap: 1.5rem; }
+.nav-links a { text-decoration: none; color: var(--color-muted); font-size: 0.95rem; white-space: nowrap; }
 .nav-links a:hover { color: var(--color-link); }
 
-.main { max-width: var(--max-width); margin: 0 auto; padding: 2rem var(--space); }
-.page-header { margin-bottom: 1.5rem; }
-.page-title { margin: 0; font-size: 1.75rem; }
-.page-content { }
+.main { max-width: var(--max-width); margin: 0 auto; padding: 2.5rem var(--space); }
+.page-header { margin-bottom: 2rem; }
+.page-title { margin: 0; font-size: 1.85rem; }
+.page-content { font-size: 1.02rem; }
+.page-content h2 { margin: 2.5rem 0 1rem; font-size: 1.35rem; border-bottom: 1px solid var(--color-border); padding-bottom: 0.4rem; }
+.page-content h2:first-child { margin-top: 0; }
+.page-content p { margin: 0 0 1.1rem; }
+.page-content ul { margin: 0 0 1.1rem; padding-left: 1.4rem; }
+.page-content li { margin-bottom: 0.4rem; }
 
-.site-footer { border-top: 1px solid #eee; margin-top: 3rem; padding: var(--space); text-align: center; font-size: 0.9rem; color: var(--color-muted); }
+.site-footer { border-top: 1px solid var(--color-border); margin-top: 4rem; padding: 1.5rem var(--space); text-align: center; font-size: 0.9rem; color: var(--color-muted); }
 
 /* Home page hero */
-.hero { text-align: center; padding: 2rem 0; }
-.hero h1 { margin: 0 0 0.5rem; font-size: 2rem; }
-.hero .tagline { margin: 0; color: var(--color-muted); font-size: 1.1rem; }
-.hero .cta { margin-top: 1.5rem; }
-.hero .cta a { display: inline-block; margin: 0 0.5rem; padding: 0.5rem 1rem; background: var(--color-link); color: #fff; text-decoration: none; border-radius: 4px; }
-.hero .cta a:hover { opacity: 0.9; }
+.hero { text-align: center; padding: 3.5rem 0 3rem; }
+.hero h1 { margin: 0 0 0.5rem; font-size: 2.25rem; }
+.hero .tagline { margin: 0 auto; max-width: 36rem; color: var(--color-muted); font-size: 1.1rem; }
+.hero .cta { margin-top: 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; }
+.hero .cta a { display: inline-block; padding: 0.6rem 1.25rem; background: var(--color-link); color: #fff; text-decoration: none; border-radius: 6px; font-size: 0.95rem; font-weight: 500; white-space: nowrap; transition: opacity 0.15s ease; }
+.hero .cta a:hover { opacity: 0.85; }
 
 /* About page profile photo */
-.profile { text-align: center; margin-bottom: 1.5rem; }
-.profile-photo { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid #eee; }
+.profile { text-align: center; margin-bottom: 2rem; }
+.profile-photo { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid var(--color-border); }
 
 /* Project cards (use with _data/projects.yml) */
 .project-list { display: grid; gap: 1.5rem; list-style: none; padding: 0; margin: 0; }
-.project-card { border: 1px solid #eee; border-radius: 8px; padding: 1.25rem; }
+.project-card { border: 1px solid var(--color-border); border-radius: 8px; padding: 1.5rem; }
 .project-card h3 { margin: 0 0 0.5rem; font-size: 1.15rem; }
-.project-card p { margin: 0; color: var(--color-muted); font-size: 0.95rem; }
-.project-card .meta { margin-top: 0.5rem; font-size: 0.85rem; color: var(--color-muted); }
+.project-card p { margin: 0 0 0.75rem; color: var(--color-muted); font-size: 0.95rem; }
+.project-card .meta { font-size: 0.85rem; color: var(--color-muted); }
+
+/* Skills list */
+.skills-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+.skills-list li { padding: 0.75rem 1rem; border: 1px solid var(--color-border); border-radius: 6px; }
