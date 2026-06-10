@@ -5,7 +5,6 @@ title: Home
 
 <div class="hero">
   <h1>{{ site.title }}</h1>
-  <p class="tagline">{{ site.description }}</p>
   <div class="cta">
     <a href="{{ '/about' | relative_url }}">About Me</a>
     <a href="{{ '/unconventional-path' | relative_url }}">My Unconventional Path</a>
