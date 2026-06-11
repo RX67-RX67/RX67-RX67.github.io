@@ -65,11 +65,15 @@ img { max-width: 100%; height: auto; }
 .project-card p { margin: 0 0 0.75rem; color: var(--color-muted); font-size: 0.95rem; }
 .project-card .meta { font-size: 0.85rem; color: var(--color-muted); }
 
-/* Studio work gallery */
-.studio-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; list-style: none; margin: 0 0 1.1rem; padding: 0; }
-.studio-gallery li { margin: 0; }
-.studio-gallery img { display: block; width: 100%; height: 14rem; object-fit: cover; border-radius: 0.5rem; box-shadow: var(--shadow-sm); transition: box-shadow 0.15s ease, transform 0.15s ease; }
-.studio-gallery img:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+/* Image gallery (Studio Work, Aquarium, etc.) */
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; list-style: none; margin: 0 0 1.1rem; padding: 0; }
+.gallery li { margin: 0; }
+.gallery img { display: block; width: 100%; height: 14rem; object-fit: cover; border-radius: 0.5rem; box-shadow: var(--shadow-sm); transition: box-shadow 0.15s ease, transform 0.15s ease; }
+.gallery img:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+
+/* Inline video (e.g. portrait clips) */
+.video-frame { max-width: 22rem; margin: 0 auto 1.1rem; }
+.video-frame video { display: block; width: 100%; border-radius: 0.5rem; box-shadow: var(--shadow-sm); }
 
 /* Skills list */
 .skills-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
