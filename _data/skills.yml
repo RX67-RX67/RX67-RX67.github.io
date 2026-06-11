@@ -3,6 +3,7 @@
 
 categories:
   - name: Analytics
+    name_zh: 数据分析
 
     items:
       - Python
@@ -12,11 +13,20 @@ categories:
       - Feature Engineering
       - Model Evaluation
       - ETL Pipelines
-      - Docker
-      - Git
+      - Jupyter
+
+    items_zh:
+      - Python
+      - SQL
+      - R
+      - 监督与无监督学习模型
+      - 特征工程
+      - 模型评估
+      - ETL 数据管道
       - Jupyter
 
   - name: Artificial Intelligence & Large Language Model Systems
+    name_zh: 人工智能与大语言模型系统
 
     items:
       - Prompt Engineering
@@ -25,7 +35,38 @@ categories:
       - Agent Observability
       - Memory
 
+    items_zh:
+      - 提示词工程
+      - RAG（检索增强生成）
+      - MCP
+      - 智能体可观测性
+      - 记忆机制
+
+  - name: Engineering & Deployment
+    name_zh: 工程与部署
+
+    items:
+      - Git & GitHub
+      - Docker
+      - CI/CD (GitHub Actions)
+      - REST API Design (FastAPI)
+      - Cloud Deployment (Vercel, Railway)
+      - Relational Databases (PostgreSQL, Supabase)
+      - Scheduled Data Pipelines
+      - Caching & Cache Invalidation
+
+    items_zh:
+      - Git 与 GitHub
+      - Docker
+      - CI/CD（GitHub Actions）
+      - REST API 设计（FastAPI）
+      - 云端部署（Vercel、Railway）
+      - 关系型数据库（PostgreSQL、Supabase）
+      - 定时数据管道
+      - 缓存与缓存失效策略
+
   - name: Visualization
+    name_zh: 数据可视化
 
     items:
       - Matplotlib / Seaborn / Plotly
@@ -33,7 +74,14 @@ categories:
       - Recharts
       - React / Next.js (Interactive Dashboards)
 
+    items_zh:
+      - Matplotlib / Seaborn / Plotly
+      - D3.js
+      - Recharts
+      - React / Next.js（交互式仪表盘）
+
   - name: Business & Research
+    name_zh: 商业与研究
 
     items:
       - Data Storytelling
@@ -41,8 +89,19 @@ categories:
       - Statistical Analysis
       - Client-Facing Communication
 
+    items_zh:
+      - 数据叙事
+      - 研究框架设计
+      - 统计分析
+      - 客户沟通与汇报
+
   - name: Languages
+    name_zh: 语言
 
     items:
       - English (Proficient)
       - Mandarin (Native)
+
+    items_zh:
+      - 英语（熟练）
+      - 普通话（母语）

@@ -2,10 +2,13 @@
   <nav class="nav" aria-label="Main">
     <a class="nav-brand{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <ul class="nav-links">
-      <li><a href="{{ '/about' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>About Me</a></li>
-      <li><a href="{{ '/projects' | relative_url }}"{% if page.url == '/projects/' %} class="active"{% endif %}>Selected Projects</a></li>
-      <li><a href="{{ '/skills' | relative_url }}"{% if page.url == '/skills/' %} class="active"{% endif %}>Skills & Toolkit</a></li>
-      <li><a href="{{ '/beyond-data-science' | relative_url }}"{% if page.url == '/beyond-data-science/' %} class="active"{% endif %}>Beyond Data Science</a></li>
+      <li><a href="{{ '/about' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}><span data-i18n="en">About Me</span><span data-i18n="zh">关于我</span></a></li>
+      <li><a href="{{ '/projects' | relative_url }}"{% if page.url == '/projects/' %} class="active"{% endif %}><span data-i18n="en">Selected Projects</span><span data-i18n="zh">精选项目</span></a></li>
+      <li><a href="{{ '/skills' | relative_url }}"{% if page.url == '/skills/' %} class="active"{% endif %}><span data-i18n="en">Skills & Toolkit</span><span data-i18n="zh">技能与工具</span></a></li>
+      <li><a href="{{ '/beyond-data-science' | relative_url }}"{% if page.url == '/beyond-data-science/' %} class="active"{% endif %}><span data-i18n="en">Beyond Data Science</span><span data-i18n="zh">数据科学之外</span></a></li>
     </ul>
+    <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language / 切换语言">
+      <span data-i18n="en">中文</span><span data-i18n="zh">EN</span>
+    </button>
   </nav>
 </header>

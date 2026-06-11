@@ -2,8 +2,11 @@
 # Access in Liquid as: site.data.projects
 
 - title: "U.S. Manufacturing Sector Analysis Dashboard"
+  title_zh: "美国制造业部门分析仪表盘"
   status: ""
+  status_zh: ""
   description: "Built a full-stack economic intelligence dashboard that aggregates live data from 5 federal APIs (FRED, BLS, Census M3, BEA, Census CBP) into a unified PostgreSQL database. Designed a weekly ETL pipeline on GitHub Actions with retry logic and MD5-based cache invalidation. Integrated Claude (claude-sonnet-4-6) to auto-generate section-level economic reports cached in Supabase. Deployed a FastAPI backend on Railway and a Next.js server-rendered frontend on Vercel, with D3/TopoJSON state employment maps and Recharts time-series visualizations."
+  description_zh: "构建了一个全栈经济情报仪表盘，整合来自 5 个联邦 API（FRED、BLS、Census M3、BEA、Census CBP）的实时数据，统一存储到 PostgreSQL 数据库中。基于 GitHub Actions 设计了每周运行的 ETL 流水线，具备重试机制和基于 MD5 的缓存失效策略。集成 Claude（claude-sonnet-4-6）自动生成各板块的经济分析报告并缓存到 Supabase。后端使用 FastAPI 部署在 Railway 上，前端使用 Next.js 服务端渲染并部署在 Vercel 上，包含基于 D3/TopoJSON 的各州就业地图和基于 Recharts 的时间序列可视化。"
   tech: "Python, FastAPI, Next.js, TypeScript, Supabase, Anthropic Claude, D3, Recharts, GitHub Actions, Railway, Vercel"
   repo: "https://github.com/RX67-RX67/manufacturing-section-analysis"
   demo: "https://manufacturing-section-analysis.vercel.app"
