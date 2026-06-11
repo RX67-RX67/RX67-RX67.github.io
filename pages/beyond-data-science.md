@@ -8,7 +8,7 @@ permalink: /beyond-data-science/
 <h2 data-i18n="en">Studio Work</h2>
 <h2 data-i18n="zh">建筑工作室作品</h2>
 <p data-i18n="en"><em>A collection of outcomes from my architecture design studio work.</em></p>
-<p data-i18n="zh"><em>这里展示了一些我在建筑设计工作室课程中的作品成果。</em></p>
+<p data-i18n="zh"><em>这里放的是我在建筑设计工作室课上做的一些作品。</em></p>
 
 <ul class="gallery">
   <li><img src="{{ '/assets/images/studio/studio-01.jpg' | relative_url }}" alt="Studio work — massing study"></li>
@@ -27,7 +27,7 @@ permalink: /beyond-data-science/
 <h2 data-i18n="en">Betta Fishkeeping &amp; Breeding</h2>
 <h2 data-i18n="zh">斗鱼饲养与繁殖</h2>
 <p data-i18n="en"><em>I'm also a big fan of aquariums — here's a collection of my betta tanks, and a clip of a recent batch of fry growing up.</em></p>
-<p data-i18n="zh"><em>我也是水族爱好者——这里是我饲养的一些斗鱼缸照片，以及最近一批鱼苗成长过程的视频片段。</em></p>
+<p data-i18n="zh"><em>我也是个水族爱好者——这里是我养的几缸斗鱼，还有最近一窝鱼苗的成长记录。</em></p>
 
 <ul class="gallery">
   <li><img src="{{ '/assets/images/aquarium/aquarium-01.jpg' | relative_url }}" alt="Betta fish in a planted tank"></li>

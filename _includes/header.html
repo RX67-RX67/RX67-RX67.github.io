@@ -1,6 +1,6 @@
 <header class="site-header">
   <nav class="nav" aria-label="Main">
-    <a class="nav-brand{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="nav-brand{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}"><span data-i18n="en">{{ site.title }}</span><span data-i18n="zh">徐睿捷</span></a>
     <ul class="nav-links">
       <li><a href="{{ '/about' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}><span data-i18n="en">About Me</span><span data-i18n="zh">关于我</span></a></li>
       <li><a href="{{ '/projects' | relative_url }}"{% if page.url == '/projects/' %} class="active"{% endif %}><span data-i18n="en">Selected Projects</span><span data-i18n="zh">精选项目</span></a></li>
