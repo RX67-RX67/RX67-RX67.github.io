@@ -10,3 +10,13 @@
   tech: "Python, FastAPI, Next.js, TypeScript, Supabase, Anthropic Claude, D3, Recharts, GitHub Actions, Railway, Vercel"
   repo: "https://github.com/RX67-RX67/manufacturing-section-analysis"
   demo: "https://manufacturing-section-analysis.vercel.app"
+
+- title: "Data Center Siting Analysis and Predictive Modeling at the County Level"
+  title_zh: "美国县级数据中心选址分析与预测建模"
+  status: ""
+  status_zh: ""
+  description: "Built a county-level data pipeline integrating 9+ public datasets (electricity pricing, environmental risk, grid employment, broadband, labor costs, land prices, transportation access) with web-scraped data center locations and LLM-validated policy information. Engineered a 3,138-county feature table and developed a two-part LightGBM hurdle model to separately predict data center presence and scale, using SHAP for interpretation. Produced a county-level attractiveness ranking to identify likely future data center sites."
+  description_zh: "搭建了一套县级数据流水线，整合了 9 个以上的公开数据集（电价、环境风险、电网就业、宽带覆盖、劳动力成本、地价、交通可达性），并结合网络爬取的数据中心位置信息和经过大模型校验的政策数据。构建了覆盖 3,138 个县的特征表，并开发了一个两阶段 LightGBM hurdle 模型，分别预测数据中心的有无和规模，并用 SHAP 做可解释性分析。最终生成各县的吸引力排名，用于识别未来可能新建数据中心的地区。"
+  tech: "Python, LightGBM, SHAP, Pandas, Jupyter, Web Scraping, LLM-assisted Validation"
+  repo: "https://github.com/RX67-RX67/data-center-siting-analysis"
+  demo: "https://data-center-siting-analysis-67jzjqh8jepvjehtx6fvra.streamlit.app/"
